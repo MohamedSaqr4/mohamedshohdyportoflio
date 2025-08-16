@@ -1,0 +1,17 @@
+<!-- مثال على كيفية رفع الصورة الشخصية -->
+<!-- استبدل هذا الجزء في index.html -->
+
+<!-- بدلاً من منطقة رفع الصورة، استخدم هذا: -->
+<div style="width: 150px; height: 150px; margin: 0 auto 30px; border-radius: 50%; overflow: hidden;">
+    <img src="assets/images/profile-photo.jpg" 
+         alt="Mohamed Shohdy" 
+         style="width: 100%; height: 100%; object-fit: cover;">
+</div>
+
+<!-- أو إذا كنت تريد الاحتفاظ بإمكانية التغيير: -->
+<div style="width: 150px; height: 150px; margin: 0 auto 30px; border-radius: 50%; overflow: hidden; cursor: pointer;">
+    <img src="assets/images/profile-photo.jpg" 
+         alt="Mohamed Shohdy" 
+         style="width: 100%; height: 100%; object-fit: cover;"
+         onclick="changeProfilePhoto()">
+</div> 
